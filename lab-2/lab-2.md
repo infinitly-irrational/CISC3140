@@ -1,7 +1,9 @@
 Lab 2
 
 Haitham Alnajar
+
 Application name: myAnimeList
+
 Description: Keep track of anime and manga by adding them to lists such was watching/reading, watched/read, plan to watch/read, etc. I will refer to either a manga or anime as an entry.
 
 Task 1: Track and anime/manga by adding them to its respective list
