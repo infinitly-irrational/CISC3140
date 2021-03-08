@@ -1,0 +1,51 @@
+Part 1: Connect to BC's Web Lab Linux Server using SSH
+
+In order to connect to BC's web lab linus server using ssh, perform the following steps:
+
+1. After obtaining your login information, open a terminal window.
+2. Enter the following without quotes and press enter:
+        'ssh username@chooseAnIpAddress
+
+3. You will then be promoted to enter your password. Enter your passoword and press enter.
+
+4. If this was done correctly, the next line in the terminal should start with '[username@sol25 ~]$
+
+
+Part 2:
+
+Lookup information for linux programs and summarize information
+
+'whatis X ' returns a brief description of the command line program provided 
+
+curl :  transfer a URL
+
+awk :       pattern scanning and processing language
+
+guile:      The GNU Project Extension Language
+
+gzip:       compress or expand files
+
+conver:     convert between image formats as well as resize an image
+
+wget:       The non-interactive network downloader. Retrieves content from a web server
+
+java:       Launches a Java application.
+
+mysql:      The MySQL command-line tool
+
+make:       Maintain, update, and regenerate groups of programs
+
+nano:       Nano's ANOther editor, an enhanced free Pico clone
+
+cd:         change the working directory
+                note: 'cd-' moves to 1 previous directory, 'cd ..' moves 1 directory up, and 'cd' goes back to home folder
+
+ls:        lists the files in the current directory
+
+cp:        Copies a file. 'cp filename.pdf <path to file>'
+
+mkdir:     makes a new directory inside the current one 'mkdir <name>' 
+
+rmdir:     removes empty directory
+
+
