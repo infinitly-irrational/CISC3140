@@ -1,0 +1,16 @@
+  987  df
+  988  file *
+  989  file
+  990  clear
+  991  man find
+  992  clear
+  993  cd desktop/csv\ work
+  994  awk -F'.' '$2 ~ /M/ { print $0 }' biostats.csv > output.txt
+  995  awk -F'.' '$2 ~ /M/ { print $0 }' biostats.csv
+  996  awk -F'.' '$2 ~ /M/ { print $0 }' biostats.csv > output.txt
+  997  awk -F';' '$3 ~ /M/ { print $0 }' biostats.csv >> output.txt
+  998  awk -F',' '$2 ~ /M/ { print $0 }' biostats.csv >> output.txt
+  999  cd desktop/csv\ work
+ 1000  awk -F',' '$2 ~ /M/ { print $0 }' biostats.csv > output.txt
+ 1001  cd desktop/csv\ work
+ 1002  script screen.log

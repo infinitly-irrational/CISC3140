@@ -1,0 +1,5 @@
+Script started on Sun Mar 14 16:12:53 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://haithams-Air.fios-router.home/Users/haitham/desktop/csv%20work[0m[27m[24m[Jhaitham@haithams-Air csv work % [K[?2004h[7mawk -F',' '$2 ~ /M/ { print $0 }' biostats.csv >[7m [7moutput.txt[27m[K[A[21C[27ma[27mw[27mk[27m [27m-[27mF[27m'[27m,[27m'[27m [27m'[27m$[27m2[27m [27m~[27m [27m/[27mM[27m/[27m [27m{[27m [27mp[27mr[27mi[27mn[27mt[27m [27m$[27m0[27m [27m}[27m'[27m [27mb[27mi[27mo[27ms[27mt[27ma[27mt[27ms[27m.[27mc[27ms[27mv[27m [27m> [27mo[27mu[27mt[27mp[27mu[27mt[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://haithams-Air.fios-router.home/Users/haitham/desktop/csv%20work[0m[27m[24m[Jhaitham@haithams-Air csv work % [K[?2004heexit[?2004l
+
+Script done on Sun Mar 14 16:13:05 2021
