@@ -1,0 +1,85 @@
+Script started on Sun Mar 21 23:34:13 2021
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ cd[K[Kpwd
+/Users/haitham
+bash-3.2$ cd desktop
+bash-3.2$ mkdir lab6
+bash-3.2$ cd lab6
+bash-3.2$ touch RepoMeta.txt
+bash-3.2$ git init
+Initialized empty Git repository in /Users/haitham/Desktop/lab6/.git/
+bash-3.2$ git add RepoMeta.txt
+bash-3.2$ git commit -m "first commit"[K[Kt"
+[master (root-commit) 761fbd0] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 RepoMeta.txt
+bash-3.2$ git remote add origin git@github.com:alex[K[K[K[Kinfinity[Kly-irrational/repo1[K[K[K[K[KRepo1.git
+bash-3.2$ git push -u origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'github.com:infinitly-irrational/Repo1.git'
+[mbash-3.2$ git push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git status
+On branch master
+nothing to commit, working tree clean
+bash-3.2$ ls
+RepoMeta.txt
+bash-3.2$ git add RepoMeta.txt
+bash-3.2$ git status
+On branch master
+nothing to commit, working tree clean
+bash-3.2$ git remote add origin git@github.com:infinitly-irrational/Repo1.git
+fatal: remote origin already exists.
+bash-3.2$ git[K[K[Kgit push -u origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git remote add origin git@github.com:infinitly-irrational/Repo1.git
+fatal: remote origin already exists.
+bash-3.2$ git branch -M main
+bash-3.2$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:infinitly-irrational/Repo1.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+bash-3.2$ pwd
+/Users/haitham/desktop/lab6
+bash-3.2$ touch HelloWorld.java
+bash-3.2$ nano Helloworld.java
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6            File: Helloworld.java                               [22;33H[ Read 0 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mpublic class main    Hell[22d[K[3;18HoWorld{} [4d}7[4;22r8M[1;24r[5;1H[4;22r[4;1HM[1;24r[6;1H[4;22r[4;1HM[1;24r[7;1H[A[A[5;9Hpublic statuc  ic void main (String [] args){} [6d}[7d[K[8d}[6d[K[7d}[8d[K[9d}[7d[K[8d}[9d[K[10d}[8d[A[7;9H[7;17HSystem.out.println("Hello World");[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: Helloworld.java                         [23d^G(B[m Get Help[23;21H(B[0;7m^T(B[m To Files[23;41H(B[0;7mM-M(B[m Mac Format[61G(B[0;7mM-P(B[m Prepend[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[24;61H(B[0;7mM-B(B[m Backup File[22;36H[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[7;51H[8d}[9d[10d}[11d[22d(B[0;7mFile Name to Write: Helloworld.java                                             [23;14H(B[m       (B[0;7m^T(B[m To Files         (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[22;36H[?25l[3dWrite File Help Text[K[5d Type the name that you wish to save the current file as and press Enter to[6d save the file.[7d[K[8d If you have selected text with the mark, you will be prompted to save only the[9d selected portion to a separate file.  To reduce the chance of overwriting the[10d current file with just a portion of it, the current filename is not the[11d default in this mode.[13d The following function keys are available in Write File mode:[15d^G[9G(F1)[15;25HDisplay this help text[16d^C[16;25HCancel the current function[17d^T[17;25HGo to file browser[18dM-D[18;25HToggle the use of DOS format[19dM-M[19;25HToggle the use of Mac format[20dM-A[20;25HToggle appending[21dM-P[21;25HToggle prepending[22d[K[23;2H(B[0;7mL(B[m Refresh [23;22H(B[0;7mY(B[m Prev Page[23;41H(B[0;7m^P(B[m Prev Line  [23;63H(B[0;7m\(B[m First Line[24;2H(B[0;7mX(B[m Exit  [24;21H(B[0;7m^V(B[m Next Page  [41G(B[0;7m^N(B[m Next Line[24;63H(B[0;7m/(B[m Last Line[K[21;42H[3dM-A[21X[3;25HToggle appending[4dM-P[4;25HToggle prepending[5dM-B[21X[5;25HToggle backing up of the original file[K[6d[K[8d[K[9d[K[10d[K[11d[K[13d[K[15d[K[16d[K[17d[K[18d[K[19d[K[20d[K[21d[K[5;63H[3dWrite File Help Text[K[4d[K[5d Type the name that you wish to save the current file as and press Enter to[6d save the file.[8d If you have selected text with the mark, you will be prompted to save only the[9d selected portion to a separate file.  To reduce the chance of overwriting the[10d current file with just a portion of it, the current filename is not the[11d default in this mode.[13d The following function keys are available in Write File mode:[15d^G[9G(F1)[15;25HDisplay this help text[16d^C[16;25HCancel the current function[17d^T[17;25HGo to file browser[18dM-D[18;25HToggle the use of DOS format[19dM-M[19;25HToggle the use of Mac format[20dM-A[20;25HToggle appending[21dM-P[21;25HToggle prepending[?12l[?25h[3dpublic class HelloWorld{[5;8H[1K public static void main (String [] args){[K[6d[K[7;17HSystem.out.println("Hello World");[8d}[K[9d[K[10d}[K[11d[K[13d[K[15d[K[16d[K[17d[K[18d[K[19d[K[20d[K[21d[K[22d(B[0;7mFile Name to Write: Helloworld.java                                             [23;2HG(B[m Get Help[23;22H(B[0;7mT(B[m To Files [23;41H(B[0;7mM-M(B[m Mac Format[23;63H(B[0;7mP(B[m Prepend[K[24;2H(B[0;7mC(B[m Cancel[24;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append  [24;63H(B[0;7mB(B[m Backup File[22;36H[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[11d[23d[J[24;80H[24;1H[?1049l[?1l>bash-3.2$ git add Hellowo[K[Kworld.java
+bash-3.2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mHelloWorld.java[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git [K[K[K[Knano HelloWorld.java
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6            File: HelloWorld.java                               [3;1H(B[mpublic class HelloWorld{[5;9Hpublic static void main (String [] args){[7;17HSystem.out.println("Hello World");[8d}[10d}[22;33H(B[0;7m[ Read 8 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[5d[5;9H[6d[7d[1;71H(B[0;7mModified[7d(B[m[7;24H[1K System.out.println("Hello World");[7;9H[7;32H[1K System.out.println("Hello World");[7;17H[8P[7;9H[8P[7;9H[7;17HSystem.out.pr[22d[K[7;30Hintln("Hello World");[8d[K[9d}[10d[K[11d}[8d[9d[K[10d}[11d[K[12d}[9d[A[8;9H[8;17HSystem.out.Pr  println("Today's data o is March 21, 2019");9");[22d(B[0;7mFile Name to Write: HelloWorld.java                                             [23;14H(B[m       (B[0;7m^T(B[m To Files         (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend[K[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[22;36H[C[1;71H[39;49m(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[8;70H[23d[J[24;80H[24;1H[?1049l[?1l>bash-3.2$ git add HelloWorld.java
+bash-3.2$ git commit "Added a [K[Ka statement to print toda's[K[Kys date"[1@-[1@m[1@ 
+[main c0dd214] Added a statement to print todays date
+ 1 file changed, 10 insertions(+)
+ create mode 100644 HelloWorld.java
+bash-3.2$ pq[Kwd
+/Users/haitham/desktop/lab6
+bash-3.2$ ls
+HelloWorld.java	RepoMeta.txt
+bash-3.2$ exit[K[K[K[Khistory 100 > RepoMeta.txt> RepoMeta.txt[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-3.2$ ex[K[Kexit
+exit
+
+Script done on Sun Mar 21 23:57:27 2021

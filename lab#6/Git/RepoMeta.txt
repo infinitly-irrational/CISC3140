@@ -1,0 +1,35 @@
+ 
+  483  cd desktop
+  484  script ~/session.log
+  485  rm /Users/haitham/session.log
+  486  pwd
+  487  cd desktop
+  488  mkdir lab6
+  489  cd lab6
+  490  touch RepoMeta.txt
+  491  git init
+  492  git add RepoMeta.txt
+  493  git commit -m "first commit"
+  494  git remote add origin git@github.com:infinitly-irrational/Repo1.git
+  495  git push -u origin main
+  496  git push -u origin master
+  497  git status
+  498  ls
+  499  git add RepoMeta.txt
+  500  git status
+  501  git remote add origin git@github.com:infinitly-irrational/Repo1.git
+  502  git push -u origin master
+  503  git remote add origin git@github.com:infinitly-irrational/Repo1.git
+  504  git branch -M main
+  505  git push -u origin main
+  506  pwd
+  507  touch HelloWorld.java
+  508  nano Helloworld.java
+  509  git add Helloworld.java
+  510  git status
+  511  nano HelloWorld.java
+  512  git add HelloWorld.java
+  513  git commit -m "Added a statement to print todays date"
+  514  pwd
+  515  ls
+  516  history 100 >> RepoMeta.txt
