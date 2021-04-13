@@ -80,3 +80,7 @@ equals.addEventListener("click", (e) => {
     //   factorial(num_1, num_2);
   }
 });
+
+document.getElementById("clear").addEventListener("click", () => {
+  document.getElementById("input").innerHTML = "";
+});
