@@ -1,0 +1,24 @@
+button {
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 16px;
+  transition-duration: 0.2s;
+  text-align: center;
+  margin: 3px;
+  width: 6px;
+  padding: 5px 35px 5px 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(168, 195, 218);
+  width: 18em;
+  padding: 1em 1em 1em 1em;
+}
